@@ -14,9 +14,9 @@ from app import MultiNodeApp
 # Setting Information
 
 ## E-mail Settings
-from_addr = '2934217127@qq.com'
-password = 'qeixccdmcyevdeei'
-to_addr = '1305848423@qq.com'
+from_addr = 'youremail'
+password = 'xxxxxxxxx'
+to_addr = 'receiver'
 smtp_server = 'smtp.qq.com'
 port = 465
 
@@ -129,11 +129,11 @@ msg['Subject'] = 'MULTINODE WARNING'
 
 ## MQTT Settings
 PORT=1883
-HOST=r"iot-06z00itmv0vajzw.mqtt.iothub.aliyuncs.com"
-DEV_ID = r"jk3pIlhydjy.Desktop|securemode=2,signmethod=hmacsha256,timestamp=1697264207585|" 
-PRO_ID = r"Desktop&jk3pIlhydjy" 
-AUTH_INFO = r"21f57ac8e0aee40a506530bbfb6d05d1de3869c4dddb17f0c9933ba48e345d33"
-TOPIC = r"/sys/jk3pz9zX1pF/longxinpi/thing/service/property/set"
+HOST=r"iot-xxxxxxxxxxxx.mqtt.iothub.aliyuncs.com"
+DEV_ID = r"xxxxxxxxxx.Desktop|securemode=2,signmethod=hmacsha256,timestamp=xxxxxxxxxxx|" 
+PRO_ID = r"xxxxxxxxxx" 
+AUTH_INFO = r"xxxxxxxxxxxxxxxxxxxxx"
+TOPIC = r"/sys/xxxxxxxxxx/xxxxxxxxx/thing/service/property/set"
 
 
 # MQTT Functions
